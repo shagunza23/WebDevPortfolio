@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("http://source.unsplash.com/y6uilkrSyMs");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{background: cadetblue;}
+
+.s{
+    font-size: 20px;
+}
+
+.content{
+    color: black;
+    text-align: center;
+    width: 1000px;
+}
